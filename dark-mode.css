@@ -5,13 +5,11 @@
    ============================================ */
 
 html.kingwood-dark-mode,
-html.kingwood-dark-mode body {
-  background-color: #1a1a1a !important;
+html.kingwood-dark-mode body,
+html.kingwood-dark-mode body#mybody {
+  background-color: #1b3316 !important;
+  background-image: none !important;
   color: #d0d0d0 !important;
-}
-
-html.kingwood-dark-mode #mybody {
-  background-color: #1a1a1a !important;
 }
 
 /* ============================================
@@ -91,6 +89,20 @@ html.kingwood-dark-mode .forumrow:hover {
 html.kingwood-dark-mode .forumcell {
   color: #999 !important;
   border-bottom-color: #333 !important;
+}
+
+/* Reply count green circles */
+html.kingwood-dark-mode .forumcell_num_replies {
+  color: #ffffff !important;
+}
+
+html.kingwood-dark-mode .forumcell_num_replies a,
+html.kingwood-dark-mode .forumcell_num_replies a:link,
+html.kingwood-dark-mode .forumcell_num_replies a:visited,
+html.kingwood-dark-mode .forumcell_num_replies span {
+  background-color: #1b3316 !important;
+  color: #c0c0c0 !important;
+  border-color: #2a5a20 !important;
 }
 
 html.kingwood-dark-mode .forumcell_title_link {
@@ -701,6 +713,60 @@ html.kingwood-dark-mode a.pm-notice:visited {
   color: #d0d0d0 !important;
 }
 
+/* Notification popup (bottom-left toast) */
+html.kingwood-dark-mode #notify {
+  background-color: #2a2a2a !important;
+  color: #d0d0d0 !important;
+  border-color: #555 !important;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.5) !important;
+}
+
+html.kingwood-dark-mode #notifydata {
+  color: #d0d0d0 !important;
+}
+
+html.kingwood-dark-mode #notifylink {
+  color: #6b8fd4 !important;
+}
+
+html.kingwood-dark-mode #notifylinkprompt {
+  color: #6b8fd4 !important;
+}
+
+/* Fade message popup (ignore list, bookmarks, etc.) */
+html.kingwood-dark-mode #fademsgdiv {
+  background-color: #2a2a2a !important;
+  color: #d0d0d0 !important;
+  border-color: #555 !important;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.5) !important;
+}
+
+/* New replies / new message notification bar */
+html.kingwood-dark-mode #newrepliesnotification,
+html.kingwood-dark-mode #newmessagenotification {
+  background-color: #2a2a2a !important;
+  color: #d0d0d0 !important;
+}
+
+html.kingwood-dark-mode a.new-thread-reply-box:link,
+html.kingwood-dark-mode a.new-thread-reply-box:visited {
+  background-color: #8b5a30 !important;
+  color: #fff !important;
+  border-color: #6a4020 !important;
+}
+
+html.kingwood-dark-mode a.new-thread-reply-box:hover {
+  background-color: #9b6a40 !important;
+}
+
+/* Thread menu popup (inline bg:#fff) */
+html.kingwood-dark-mode #threadmenucontent,
+html.kingwood-dark-mode [id="threadmenucontent"] {
+  background-color: #2a2a2a !important;
+  border-color: #555 !important;
+  color: #d0d0d0 !important;
+}
+
 /* ============================================
    FORUM ROWS (alternate)
    ============================================ */
@@ -752,7 +818,7 @@ html.kingwood-dark-mode #righthandsidebar3column {
 }
 
 /* ============================================
-   CATCH-ALL — inline white backgrounds
+   CATCH-ALL — inline white/light backgrounds
    ============================================ */
 
 html.kingwood-dark-mode [style*="background-color:#fff"],
@@ -760,7 +826,23 @@ html.kingwood-dark-mode [style*="background-color: #fff"],
 html.kingwood-dark-mode [style*="background-color:#ffffff"],
 html.kingwood-dark-mode [style*="background-color: #ffffff"],
 html.kingwood-dark-mode [style*="background-color:white"],
-html.kingwood-dark-mode [style*="background-color: white"] {
+html.kingwood-dark-mode [style*="background-color: white"],
+html.kingwood-dark-mode [style*="background-color:#eee"],
+html.kingwood-dark-mode [style*="background-color: #eee"],
+html.kingwood-dark-mode [style*="background-color:#eeeeee"],
+html.kingwood-dark-mode [style*="background-color: #eeeeee"],
+html.kingwood-dark-mode [style*="background-color:#e8e8e8"],
+html.kingwood-dark-mode [style*="background-color:#e0e0e0"],
+html.kingwood-dark-mode [style*="background-color:#ddd"],
+html.kingwood-dark-mode [style*="background-color: #ddd"],
+html.kingwood-dark-mode [style*="background-color:#d0d0d0"],
+html.kingwood-dark-mode [style*="background-color:#f0f0f0"],
+html.kingwood-dark-mode [style*="background-color: #f0f0f0"],
+html.kingwood-dark-mode [style*="background-color:#f8f8f8"],
+html.kingwood-dark-mode [style*="background-color: #f8f8f8"],
+html.kingwood-dark-mode [style*="background-color:#f9f9f9"],
+html.kingwood-dark-mode [style*="background-color:#fafafa"],
+html.kingwood-dark-mode [style*="background-color:#fcfcfc"] {
   background-color: #2a2a2a !important;
 }
 
