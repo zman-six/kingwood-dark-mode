@@ -456,6 +456,40 @@ html.kingwood-dark-mode .simpleforumpagination a {
   color: #6b8fd4 !important;
 }
 
+html.kingwood-dark-mode a.pageunselected,
+html.kingwood-dark-mode a.pageunselected:link,
+html.kingwood-dark-mode a.pageunselected:visited {
+  background-color: #2a2a2a !important;
+  color: #6b8fd4 !important;
+  border-color: #444 !important;
+}
+
+html.kingwood-dark-mode a.pageunselected:hover {
+  background-color: #333 !important;
+}
+
+html.kingwood-dark-mode a.pageunselected:focus,
+html.kingwood-dark-mode a.pageunselected:active {
+  background-color: #1e2e3a !important;
+  border-color: #6b8fd4 !important;
+}
+
+html.kingwood-dark-mode a.pageselected,
+html.kingwood-dark-mode a.pageselected:link,
+html.kingwood-dark-mode a.pageselected:visited {
+  background-color: #1a4a6a !important;
+  border-color: #555 !important;
+}
+
+html.kingwood-dark-mode a.pagefirst {
+  border-left-color: #444 !important;
+}
+
+html.kingwood-dark-mode .page {
+  background-color: #2a2a2a !important;
+  border-color: #444 !important;
+}
+
 /* ============================================
    SEARCH
    ============================================ */
