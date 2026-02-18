@@ -64,6 +64,17 @@ function forceDarkInlineStyles() {
     memberMenu.style.setProperty("color", "#d0d0d0", "important");
   }
 
+  // News page gray flower background (inline style with background shorthand)
+  document.querySelectorAll('[style*="grayflowersbg"]').forEach((el) => {
+    el.style.setProperty("background", "#1a1a1a none", "important");
+  });
+
+  // Any element with inline #f1f1f1 background (news page, sidebar)
+  document.querySelectorAll('[style*="background: #f1f1f1"], [style*="background:#f1f1f1"], [style*="background-color:#f1f1f1"], [style*="background-color: #f1f1f1"]').forEach((el) => {
+    if (el.tagName === "IMG" || el.tagName === "VIDEO" || el.tagName === "IFRAME") return;
+    el.style.setProperty("background", "#1a1a1a none", "important");
+  });
+
   // Any element with inline white backgrounds
   document.querySelectorAll('[style*="background-color:#fff"], [style*="background-color: #fff"], [style*="background-color:#ffffff"], [style*="background-color: #ffffff"]').forEach((el) => {
     // Skip images and media

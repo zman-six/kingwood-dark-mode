@@ -54,6 +54,12 @@ html.kingwood-dark-mode .contentpadding {
   background-color: #222222 !important;
 }
 
+html.kingwood-dark-mode #maincontent1column,
+html.kingwood-dark-mode #maincontent2column,
+html.kingwood-dark-mode #maincontent3column {
+  background-color: #1a1a1a !important;
+}
+
 /* ============================================
    SIDEBAR
    ============================================ */
@@ -636,8 +642,14 @@ html.kingwood-dark-mode #sectionmenu {
    NEWS PAGE
    ============================================ */
 
+/* The gray flower background is an inline style, not a class */
+html.kingwood-dark-mode [style*="grayflowersbg"],
+html.kingwood-dark-mode [style*="background: #f1f1f1"] {
+  background: #1a1a1a none !important;
+}
+
 html.kingwood-dark-mode .news-feed-container {
-  background: #1a1a1a !important;
+  background: #1a1a1a none !important;
 }
 
 html.kingwood-dark-mode .news-feed-block {
@@ -646,6 +658,28 @@ html.kingwood-dark-mode .news-feed-block {
 
 html.kingwood-dark-mode .n-item {
   background-color: #2a2a2a !important;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.4) !important;
+}
+
+html.kingwood-dark-mode .n-content {
+  color: #d0d0d0 !important;
+}
+
+html.kingwood-dark-mode .n-source,
+html.kingwood-dark-mode .n-source-author,
+html.kingwood-dark-mode .n-ago {
+  color: #999 !important;
+}
+
+html.kingwood-dark-mode .n-title {
+  color: #d0d0d0 !important;
+}
+
+/* News layout table system */
+html.kingwood-dark-mode .mytable,
+html.kingwood-dark-mode .myrow,
+html.kingwood-dark-mode .mycell {
+  background-color: transparent !important;
 }
 
 /* ============================================
