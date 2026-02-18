@@ -633,6 +633,91 @@ html.kingwood-dark-mode #sectionmenu {
 }
 
 /* ============================================
+   NEWS PAGE
+   ============================================ */
+
+html.kingwood-dark-mode .news-feed-container {
+  background: #1a1a1a !important;
+}
+
+html.kingwood-dark-mode .news-feed-block {
+  background-color: #2a2a2a !important;
+}
+
+html.kingwood-dark-mode .n-item {
+  background-color: #2a2a2a !important;
+}
+
+/* ============================================
+   OVERLAYS / MODALS (additional)
+   ============================================ */
+
+html.kingwood-dark-mode #mainoverlayinner {
+  background-color: #2a2a2a !important;
+  color: #d0d0d0 !important;
+}
+
+/* ============================================
+   PM / NOTIFICATIONS
+   ============================================ */
+
+html.kingwood-dark-mode a.pm-notice:link,
+html.kingwood-dark-mode a.pm-notice:visited {
+  background-color: #2a2a20 !important;
+  color: #d0d0d0 !important;
+}
+
+/* ============================================
+   FORUM ROWS (alternate)
+   ============================================ */
+
+html.kingwood-dark-mode .forumrowalternate {
+  background-color: #252525 !important;
+}
+
+/* ============================================
+   MOBILE NAV
+   ============================================ */
+
+html.kingwood-dark-mode a.mobilemorenavlink:link,
+html.kingwood-dark-mode a.mobilemorenavlink:visited {
+  background-color: #2a2a2a !important;
+  color: #d0d0d0 !important;
+}
+
+/* ============================================
+   SEARCH
+   ============================================ */
+
+html.kingwood-dark-mode .search-results-grouping {
+  background-color: #2a2a2a !important;
+  border-color: #444 !important;
+}
+
+html.kingwood-dark-mode a.search-category-btn:link,
+html.kingwood-dark-mode a.search-category-btn:visited {
+  background-color: #2a2a2a !important;
+  color: #d0d0d0 !important;
+}
+
+html.kingwood-dark-mode a.search-category-btn:hover {
+  background-color: #333 !important;
+}
+
+html.kingwood-dark-mode a.search-category-btn-selected:link,
+html.kingwood-dark-mode a.search-category-btn-selected:visited {
+  background-color: #1e2e3a !important;
+}
+
+/* ============================================
+   3-COLUMN SIDEBAR
+   ============================================ */
+
+html.kingwood-dark-mode #righthandsidebar3column {
+  background-color: #1e1e1e !important;
+}
+
+/* ============================================
    CATCH-ALL — inline white backgrounds
    ============================================ */
 
