@@ -1,0 +1,36 @@
+{
+  "manifest_version": 2,
+  "name": "Dark Mode for Kingwood.com",
+  "version": "1.0.0",
+  "description": "Adds a clean dark mode to the Kingwood.com community forum. Targeted CSS overrides for all pages including threads, classifieds, and navigation.",
+  "author": "zman-six",
+  "homepage_url": "https://github.com/zman-six/kingwood-dark-mode",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "kingwood-dark-mode@zman-six",
+      "strict_min_version": "109.0"
+    }
+  },
+  "icons": {
+    "48": "icon-48.png",
+    "96": "icon-96.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://www.kingwood.com/*", "*://kingwood.com/*"],
+      "css": ["dark-mode.css"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "browser_action": {
+    "default_icon": "icon-48.png",
+    "default_title": "Toggle Dark Mode"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "storage"
+  ]
+}

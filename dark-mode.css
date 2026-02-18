@@ -1,0 +1,668 @@
+/* Dark Mode for Kingwood.com — Targeted Overrides */
+
+/* ============================================
+   BASE / BODY
+   ============================================ */
+
+html.kingwood-dark-mode,
+html.kingwood-dark-mode body {
+  background-color: #1a1a1a !important;
+  color: #d0d0d0 !important;
+}
+
+html.kingwood-dark-mode #mybody {
+  background-color: #1a1a1a !important;
+}
+
+/* ============================================
+   HEADER / NAVBAR
+   ============================================ */
+
+html.kingwood-dark-mode #blackbar {
+  background-color: #0d0d0d !important;
+}
+
+html.kingwood-dark-mode #mainnavbar {
+  background-color: #1b3316 !important;
+}
+
+html.kingwood-dark-mode .headerbar {
+  background-color: #1a1a1a !important;
+}
+
+html.kingwood-dark-mode a.new-nav,
+html.kingwood-dark-mode a.new-nav-selected,
+html.kingwood-dark-mode a.mininav {
+  color: #c0c0c0 !important;
+}
+
+html.kingwood-dark-mode a.main-nav-sub-nav {
+  background-color: #2a2a2a !important;
+  color: #d0d0d0 !important;
+}
+
+/* ============================================
+   LAYOUT WRAPPER / CONTENT AREA
+   ============================================ */
+
+html.kingwood-dark-mode .layoutwrapper {
+  background-color: #222222 !important;
+  border-color: #333 !important;
+}
+
+html.kingwood-dark-mode .contentpadding {
+  background-color: #222222 !important;
+}
+
+/* ============================================
+   SIDEBAR
+   ============================================ */
+
+html.kingwood-dark-mode #righthandsidebar2column {
+  background-color: #1e1e1e !important;
+}
+
+html.kingwood-dark-mode .bnrcontainer {
+  background-color: #1e1e1e !important;
+}
+
+/* ============================================
+   FORUM TABLE / THREAD LIST
+   ============================================ */
+
+html.kingwood-dark-mode .forumtable {
+  border-color: #333 !important;
+}
+
+html.kingwood-dark-mode .forumrow {
+  background-color: #222222 !important;
+}
+
+html.kingwood-dark-mode .forumrow:hover {
+  background-color: #2a2a2a !important;
+}
+
+html.kingwood-dark-mode .forumcell {
+  color: #999 !important;
+  border-bottom-color: #333 !important;
+}
+
+html.kingwood-dark-mode .forumcell_title_link {
+  color: #6b8fd4 !important;
+}
+
+html.kingwood-dark-mode .forumcell_title_link:visited {
+  color: #8b7fc4 !important;
+}
+
+html.kingwood-dark-mode .hot_thread {
+  background-color: rgba(255, 150, 80, 0.08) !important;
+}
+
+html.kingwood-dark-mode .forum-my-thread {
+  border-left-color: #4a8a3a !important;
+}
+
+html.kingwood-dark-mode .forum-cat-prefix {
+  color: #999 !important;
+}
+
+html.kingwood-dark-mode .forum-cat-label {
+  color: #aaa !important;
+}
+
+/* ============================================
+   POST / MESSAGE BOXES
+   ============================================ */
+
+html.kingwood-dark-mode .postcontainerbackdrop {
+  background-color: rgba(200, 200, 200, 0.05) !important;
+  border-color: #333 !important;
+}
+
+html.kingwood-dark-mode .message-box,
+html.kingwood-dark-mode .message-box-parent,
+html.kingwood-dark-mode .message-box-reply {
+  background-color: #2a2a2a !important;
+  color: #d0d0d0 !important;
+}
+
+html.kingwood-dark-mode .message-box-content,
+html.kingwood-dark-mode .message-box-parent-content,
+html.kingwood-dark-mode .message-box-reply-content {
+  color: #d0d0d0 !important;
+}
+
+html.kingwood-dark-mode .message-replies-container {
+  background-color: #1e1e1e !important;
+}
+
+/* Reply / Quote / Tip action buttons */
+html.kingwood-dark-mode a.message-box-links,
+html.kingwood-dark-mode a.message-box-links:link,
+html.kingwood-dark-mode a.message-box-links:visited {
+  background-color: #333 !important;
+  color: #bbb !important;
+  border-color: #555 !important;
+  filter: none !important;
+  opacity: 1 !important;
+}
+
+html.kingwood-dark-mode a.message-box-links:hover {
+  background-color: #3a3a3a !important;
+  color: #ddd !important;
+  border-color: #666 !important;
+}
+
+html.kingwood-dark-mode a.message-box-links img,
+html.kingwood-dark-mode a.message-box-links svg {
+  filter: none !important;
+}
+
+/* Message menu link */
+html.kingwood-dark-mode a.messagemenulink,
+html.kingwood-dark-mode a.messagemenulink:link,
+html.kingwood-dark-mode a.messagemenulink:visited {
+  color: #999 !important;
+}
+
+/* Grayscale content override */
+html.kingwood-dark-mode .grayscale-content,
+html.kingwood-dark-mode .grayscale-content a.message-box-links {
+  filter: none !important;
+}
+
+/* ============================================
+   BYLINES / USER INFO
+   ============================================ */
+
+html.kingwood-dark-mode .byline_full,
+html.kingwood-dark-mode .byline_mobile {
+  color: #888 !important;
+}
+
+/* ============================================
+   QUOTES
+   ============================================ */
+
+html.kingwood-dark-mode .quote {
+  background-color: #1e1e1e !important;
+  color: #999 !important;
+  border-color: #333 !important;
+}
+
+html.kingwood-dark-mode .expandedquote {
+  background-color: #1e1e1e !important;
+  color: #bbb !important;
+  border-color: #333 !important;
+}
+
+/* ============================================
+   TAGS
+   ============================================ */
+
+html.kingwood-dark-mode a.tag {
+  background-color: #2a2a2a !important;
+  color: #999 !important;
+  border-color: #444 !important;
+}
+
+html.kingwood-dark-mode .red-tag-selected {
+  color: #e07050 !important;
+  background-color: #3a2020 !important;
+}
+
+html.kingwood-dark-mode .green-tag-selected {
+  color: #80c060 !important;
+  background-color: #1e3018 !important;
+}
+
+html.kingwood-dark-mode .blue-tag-selected {
+  color: #7090d0 !important;
+  background-color: #1a2040 !important;
+}
+
+/* ============================================
+   DROPDOWNS / SUBNAVS
+   ============================================ */
+
+html.kingwood-dark-mode .subnavdiv {
+  background-color: #2a2a2a !important;
+  border-color: #444 !important;
+}
+
+html.kingwood-dark-mode a.subnavlink,
+html.kingwood-dark-mode .tagsubnavlink {
+  color: #bbb !important;
+  background-color: #2a2a2a !important;
+}
+
+html.kingwood-dark-mode a.subnavlink:hover,
+html.kingwood-dark-mode .tagsubnavlink:hover {
+  background-color: #333 !important;
+}
+
+html.kingwood-dark-mode #sectionmenutoggle,
+html.kingwood-dark-mode #sectionmenutoggle:link,
+html.kingwood-dark-mode #sectionmenutoggle:visited {
+  background-color: #333 !important;
+  color: #d0d0d0 !important;
+  border-color: transparent !important;
+}
+
+html.kingwood-dark-mode #sectionmenutoggle:hover {
+  background-color: #3a3a3a !important;
+  color: #e0e0e0 !important;
+  border-color: #555 !important;
+}
+
+html.kingwood-dark-mode #sectionmenutoggle:active,
+html.kingwood-dark-mode #sectionmenutoggle:focus {
+  background-color: #3a3a3a !important;
+  border-color: #555 !important;
+}
+
+html.kingwood-dark-mode #sectionmenuinner {
+  background-color: #2a2a2a !important;
+}
+
+html.kingwood-dark-mode #sectionmenuinner a,
+html.kingwood-dark-mode #sectionmenuinner a:link,
+html.kingwood-dark-mode #sectionmenuinner a:visited {
+  background-color: #333 !important;
+  color: #d0d0d0 !important;
+  border-color: transparent !important;
+}
+
+html.kingwood-dark-mode #sectionmenuinner a:hover {
+  background-color: #3a3a3a !important;
+  border-color: #555 !important;
+}
+
+html.kingwood-dark-mode #sectionmenuinner a:active,
+html.kingwood-dark-mode #sectionmenuinner a:focus {
+  background-color: #3a3a3a !important;
+  border-color: #6b8fd4 !important;
+}
+
+/* ============================================
+   LINKS (GLOBAL)
+   ============================================ */
+
+html.kingwood-dark-mode a:link {
+  color: #6b8fd4 !important;
+}
+
+html.kingwood-dark-mode a:visited {
+  color: #8b7fc4 !important;
+}
+
+html.kingwood-dark-mode a:hover {
+  color: #8baae0 !important;
+}
+
+/* ============================================
+   FORMS / POST BOX
+   ============================================ */
+
+html.kingwood-dark-mode input,
+html.kingwood-dark-mode textarea,
+html.kingwood-dark-mode select {
+  background-color: #2a2a2a !important;
+  color: #d0d0d0 !important;
+  border-color: #444 !important;
+}
+
+html.kingwood-dark-mode .posttextarea {
+  background-color: #2a2a2a !important;
+  color: #d0d0d0 !important;
+  border-color: #444 !important;
+}
+
+html.kingwood-dark-mode .postbtn {
+  background-color: #1a5580 !important;
+  color: #ffffff !important;
+}
+
+html.kingwood-dark-mode .previewbtn {
+  background-color: #333 !important;
+  color: #ccc !important;
+}
+
+html.kingwood-dark-mode .posterror {
+  background-color: #3a1a1a !important;
+  border-color: #6a3030 !important;
+  color: #e0a0a0 !important;
+}
+
+/* ============================================
+   OVERLAYS / MODALS
+   ============================================ */
+
+html.kingwood-dark-mode #mainoverlay {
+  background-color: rgba(0, 0, 0, 0.75) !important;
+}
+
+html.kingwood-dark-mode #mainoverlaycontent {
+  background-color: #2a2a2a !important;
+  color: #d0d0d0 !important;
+}
+
+html.kingwood-dark-mode #messagemenu {
+  background-color: #2a2a2a !important;
+  border-color: #444 !important;
+}
+
+html.kingwood-dark-mode #member_details_menu,
+html.kingwood-dark-mode div#member_details_menu,
+html.kingwood-dark-mode div#member_details_menu[style] {
+  background-color: #2a2a2a !important;
+  color: #d0d0d0 !important;
+  border-color: #555 !important;
+  box-shadow: 0 3px 13px 2px rgba(0, 0, 0, 0.5) !important;
+}
+
+html.kingwood-dark-mode #member_details_menu div {
+  color: #d0d0d0 !important;
+  border-color: #444 !important;
+}
+
+html.kingwood-dark-mode #member_details_menu a.subnavlink,
+html.kingwood-dark-mode #member_details_menu a.subnavlink:link,
+html.kingwood-dark-mode #member_details_menu a.subnavlink:visited {
+  background-color: #333 !important;
+  color: #bbb !important;
+}
+
+html.kingwood-dark-mode a.member-details-menu-link:hover {
+  background-color: #333 !important;
+}
+
+/* @mention links in posts */
+html.kingwood-dark-mode .message-box-content a.mention-link:link,
+html.kingwood-dark-mode .message-box-content a.mention-link:visited {
+  background-color: #333 !important;
+  color: #7ab !important;
+  border-color: transparent !important;
+}
+
+html.kingwood-dark-mode .message-box-content a.mention-link:hover {
+  background-color: #3a3a2a !important;
+  border-color: #555 !important;
+  color: #8bc !important;
+}
+
+html.kingwood-dark-mode .message-box-content a.mention-link:focus,
+html.kingwood-dark-mode .message-box-content a.mention-link:active {
+  background-color: #3a3a2a !important;
+  border-color: #6b8fd4 !important;
+}
+
+/* Years badge, post count badge, OP badge — various inline bg colors */
+html.kingwood-dark-mode [style*="background-color:#e2edf4"] {
+  background-color: #1e2e3a !important;
+  color: #7ab !important;
+}
+
+html.kingwood-dark-mode [style*="background-color:#f1f1f1"] {
+  background-color: #333 !important;
+  color: #999 !important;
+}
+
+html.kingwood-dark-mode [style*="background-color:#f5f5f5"] {
+  background-color: #333 !important;
+}
+
+html.kingwood-dark-mode [style*="background-color:#f4f4f4"] {
+  background-color: #333 !important;
+}
+
+html.kingwood-dark-mode [style*="background-color:#f9f7f3"] {
+  background-color: #333 !important;
+}
+
+html.kingwood-dark-mode [style*="background-color:#fff4eb"] {
+  background-color: #2e2216 !important;
+}
+
+/* Username link inline color override */
+html.kingwood-dark-mode a.member-details-menu-link[style*="color:#3f4b57"] {
+  color: #8baae0 !important;
+}
+
+/* ============================================
+   PAGINATION
+   ============================================ */
+
+html.kingwood-dark-mode .simpleforumpagination a {
+  color: #6b8fd4 !important;
+}
+
+/* ============================================
+   SEARCH
+   ============================================ */
+
+html.kingwood-dark-mode #blackbarsearch input {
+  background-color: #333 !important;
+  color: #d0d0d0 !important;
+  border-color: #555 !important;
+}
+
+/* ============================================
+   GENERIC TEXT OVERRIDES
+   ============================================ */
+
+html.kingwood-dark-mode div,
+html.kingwood-dark-mode td,
+html.kingwood-dark-mode p,
+html.kingwood-dark-mode span {
+  color: inherit;
+}
+
+html.kingwood-dark-mode h1,
+html.kingwood-dark-mode h2,
+html.kingwood-dark-mode h3 {
+  color: #e0e0e0 !important;
+}
+
+/* ============================================
+   SCROLLBAR
+   ============================================ */
+
+html.kingwood-dark-mode ::-webkit-scrollbar {
+  background: #1a1a1a;
+}
+
+html.kingwood-dark-mode ::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 4px;
+}
+
+/* ============================================
+   REACTIONS / EMOJIS
+   ============================================ */
+
+html.kingwood-dark-mode .reactions-suite,
+html.kingwood-dark-mode [id^="reactions_container"] {
+  background-color: transparent !important;
+}
+
+/* Reaction table cells and their link wrappers */
+html.kingwood-dark-mode table.reactions-table td {
+  background-color: transparent !important;
+}
+
+html.kingwood-dark-mode table.reactions-table td a:link,
+html.kingwood-dark-mode table.reactions-table td a:visited {
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+
+/* Reaction emoji images — JS swaps to full-color, just keep clean */
+html.kingwood-dark-mode img.reaction-img,
+html.kingwood-dark-mode img.reaction,
+html.kingwood-dark-mode .reactions-table img {
+  filter: none !important;
+  background: transparent !important;
+}
+
+/* Reaction count badges */
+html.kingwood-dark-mode div.reactioncountdiv,
+html.kingwood-dark-mode a.reactioncountdiv:link,
+html.kingwood-dark-mode a.reactioncountdiv:visited {
+  color: #bbb !important;
+}
+
+html.kingwood-dark-mode div.reactioncountunselected,
+html.kingwood-dark-mode a.reactioncountunselected:link,
+html.kingwood-dark-mode a.reactioncountunselected:visited {
+  background-color: #3a3a3a !important;
+  border-color: #555 !important;
+}
+
+html.kingwood-dark-mode div.reactioncountselected,
+html.kingwood-dark-mode a.reactioncountselected:link,
+html.kingwood-dark-mode a.reactioncountselected:visited {
+  background-color: #2a3a2a !important;
+  border-color: #4a6a4a !important;
+  color: #d0d0d0 !important;
+}
+
+/* Reacters dialog popup */
+html.kingwood-dark-mode #reactersdialog,
+html.kingwood-dark-mode .reacters-dialog {
+  background-color: #2a2a2a !important;
+  border-color: #555 !important;
+  color: #d0d0d0 !important;
+}
+
+/* Reaction icon link borders */
+html.kingwood-dark-mode a.reactioniconlink {
+  border-color: transparent !important;
+}
+
+html.kingwood-dark-mode table.reactions-table td div {
+  color: #888 !important;
+}
+
+html.kingwood-dark-mode table.reactions-table td div:hover {
+  color: #6b8fd4 !important;
+}
+
+/* ============================================
+   CLASSIFIEDS
+   ============================================ */
+
+html.kingwood-dark-mode a.classified-ad-box:link,
+html.kingwood-dark-mode a.classified-ad-box:visited {
+  background-color: #2a2a2a !important;
+  color: #d0d0d0 !important;
+  border-color: #444 !important;
+}
+
+html.kingwood-dark-mode a.classified-ad-box:hover {
+  background-color: #333 !important;
+  border-color: #666 !important;
+}
+
+html.kingwood-dark-mode a.classified-ad-box:active,
+html.kingwood-dark-mode a.classified-ad-box:focus {
+  background-color: #333 !important;
+}
+
+html.kingwood-dark-mode a.classified-post-float-link:link,
+html.kingwood-dark-mode a.classified-post-float-link:visited {
+  background-color: #1a5580 !important;
+  color: #fff !important;
+}
+
+html.kingwood-dark-mode .standard-white-menu {
+  background-color: #2a2a2a !important;
+  border-color: #555 !important;
+  color: #d0d0d0 !important;
+}
+
+html.kingwood-dark-mode a.bigbackbtn:link,
+html.kingwood-dark-mode a.bigbackbtn:visited {
+  background-color: #333 !important;
+  color: #d0d0d0 !important;
+}
+
+html.kingwood-dark-mode a.standout-link:link,
+html.kingwood-dark-mode a.standout-link:visited {
+  background-color: #333 !important;
+  color: #d0d0d0 !important;
+  border-color: #555 !important;
+}
+
+html.kingwood-dark-mode a.standout-link:hover {
+  background-color: #3a3a3a !important;
+  color: #e0e0e0 !important;
+  border-color: #666 !important;
+}
+
+html.kingwood-dark-mode a.standout-link:active,
+html.kingwood-dark-mode a.standout-link:focus,
+html.kingwood-dark-mode a.standout-button:active,
+html.kingwood-dark-mode a.standout-button:focus {
+  background-color: #3a3a3a !important;
+  border-color: #6b8fd4 !important;
+}
+
+html.kingwood-dark-mode a.standout-link-white:link,
+html.kingwood-dark-mode a.standout-link-white:visited {
+  background-color: #333 !important;
+  color: #d0d0d0 !important;
+}
+
+html.kingwood-dark-mode a.main-sidebar-nav:link,
+html.kingwood-dark-mode a.main-sidebar-nav:visited {
+  background-color: #2a2a2a !important;
+  color: #d0d0d0 !important;
+}
+
+/* Nav spacers */
+html.kingwood-dark-mode #mainnavspacer,
+html.kingwood-dark-mode #bootstrapmainnavspacer {
+  background-color: #1a1a1a !important;
+}
+
+/* Section menu inline bg override */
+html.kingwood-dark-mode #sectionmenu {
+  background-color: transparent !important;
+}
+
+/* ============================================
+   CATCH-ALL — inline white backgrounds
+   ============================================ */
+
+html.kingwood-dark-mode [style*="background-color:#fff"],
+html.kingwood-dark-mode [style*="background-color: #fff"],
+html.kingwood-dark-mode [style*="background-color:#ffffff"],
+html.kingwood-dark-mode [style*="background-color: #ffffff"],
+html.kingwood-dark-mode [style*="background-color:white"],
+html.kingwood-dark-mode [style*="background-color: white"] {
+  background-color: #2a2a2a !important;
+}
+
+html.kingwood-dark-mode .layoutwrapper table {
+  background-color: transparent !important;
+}
+
+html.kingwood-dark-mode .layoutwrapper table td,
+html.kingwood-dark-mode .layoutwrapper table th {
+  background-color: transparent !important;
+  border-color: #333 !important;
+}
+
+/* ============================================
+   IMAGES — don't touch, keep normal
+   ============================================ */
+
+html.kingwood-dark-mode img,
+html.kingwood-dark-mode video,
+html.kingwood-dark-mode iframe,
+html.kingwood-dark-mode canvas {
+  filter: none !important;
+  background-color: transparent !important;
+}
